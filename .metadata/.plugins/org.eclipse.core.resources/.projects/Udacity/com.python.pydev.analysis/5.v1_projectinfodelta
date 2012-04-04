@@ -1,1 +1,9 @@
-DELSTRCS101.searchengine.__init__
+INSTUPCS101.problems.final.star.SpellingCorrection
+C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\star\SpellingCorrection.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0
+best_action=3
+union=5
+CS101.problems.final.star.SpellingCorrection=2
+t_used=6
+count_similars=4
+edit_distance=1
