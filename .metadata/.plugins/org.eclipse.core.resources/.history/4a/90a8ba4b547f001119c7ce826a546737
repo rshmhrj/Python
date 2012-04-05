@@ -1,0 +1,45 @@
+'''
+Created on Apr 5, 2012
+
+@author: Rishi Maharaj
+'''
+
+array = [3,8,2,5,1,4,7,6]
+length = len(array)
+seenPivots = []
+
+def quicksort(A, n, l, r):
+    if n == 1:
+        return
+    
+    p = partition(A, l, r)
+
+    quicksort(A, p-1-l, l, p-1)
+    quicksort(A, r-p, p, r)
+    return A
+    
+def partition(A, l, r):
+    p = A[l]
+    i = l+1
+    for j in range(l+1,r):
+        if A[j] < p:
+            swap(A,j,i)
+        i += 1
+    swap(A,l,i-1)
+    return i - 1
+
+def swap(A, x, y):
+    t = A[x]
+    A[x] = A[y]
+    A[y] = t
+
+def choosePivot(A,n,offset):
+    #pIndex = n/2 + offset
+    #if pIndex < 0 or pIndex > n:
+    #    
+    #for item in seenPivots:
+    #    if item == A[pIndex]:
+    #        choosePivot
+    return offset
+
+print quicksort(array, length, 0, length-1)

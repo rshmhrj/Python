@@ -39,7 +39,48 @@ Created on Apr 4, 2012
 
 
 def multi_lookup(index, query):
-    return
+    length = len(query)
+    if length > 0:
+        position = []
+        urls = []
+        result = []
+        for word in query:
+            result = index[word]
+            #print result
+            for item in result:
+                position.append(item[1])
+                urls.append(item[0])
+        #print position
+        #print url
+        jump = len(position)/length
+        #print jump
+        i = 0
+        while i < len(position) and i+jump < len(position):
+            if position[i] + 1 != position[i+jump]:
+                for j in range(1,length):
+                    urls.remove(urls[i])
+                    position.remove(position[i])
+                    urls.remove(urls[i+jump-1])
+                    position.remove(position[i+jump-1])
+            i += 1
+        url = []
+        for item in urls:
+            url.append(item)
+        return remove_duplicates(url)
+    #if length == 1:
+    #    return index[query[0]]
+    else:
+        return None
+
+def remove_duplicates(items):
+    found = set([])
+    keep = []
+    
+    for item in items:
+        if item not in found:
+            found.add(item)
+            keep.append(item)
+    return keep
 
 
 def crawl_web(seed): # returns index, graph of inlinks
@@ -88,13 +129,13 @@ def union(a, b):
 def add_page_to_index(index, url, content):
     words = content.split()
     for word in words:
-        add_to_index(index, word, url)
+        add_to_index(index, word, url, words.index(word))
         
-def add_to_index(index, keyword, url):
+def add_to_index(index, keyword, url, position):
     if keyword in index:
-        index[keyword].append(url)
+        index[keyword].append([url,position])
     else:
-        index[keyword] = [url]
+        index[keyword] = [[url,position]]
 
 def lookup(index, keyword):
     if keyword in index:
@@ -150,19 +191,21 @@ def get_page(url):
 
 #Here are a few examples from the test site:
 
-#index, graph = crawl_web('http://www.udacity.com/cs101x/final/multi.html')
+index, graph = crawl_web('http://www.udacity.com/cs101x/final/multi.html')
 
-#print multi_lookup(index, ['Python'])
+#print index
+
+print multi_lookup(index, ['Python'])
 #>>> ['http://www.udacity.com/cs101x/final/b.html', 'http://www.udacity.com/cs101x/final/a.html']
 
-#print multi_lookup(index, ['Monty', 'Python'])
+print multi_lookup(index, ['Monty', 'Python'])
 #>>> ['http://www.udacity.com/cs101x/final/a.html']
 
-#print multi_lookup(index, ['Python', 'programming', 'language'])
+print multi_lookup(index, ['Python', 'programming', 'language'])
 #>>> ['http://www.udacity.com/cs101x/final/b.html']
 
-#print multi_lookup(index, ['Thomas', 'Jefferson'])
+print multi_lookup(index, ['Thomas', 'Jefferson'])
 #>>> ['http://www.udacity.com/cs101x/final/b.html', 'http://www.udacity.com/cs101x/final/a.html']
 
-#print multi_lookup(index, ['most', 'powerful', 'weapon'])
+print multi_lookup(index, ['most', 'powerful', 'weapon'])
 #>>> ['http://www.udacity.com/cs101x/final/a.html']

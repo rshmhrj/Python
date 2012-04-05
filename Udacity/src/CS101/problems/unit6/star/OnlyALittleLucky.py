@@ -41,7 +41,8 @@ def ordered_search(index, ranks, keyword):
     result = lookup(index,keyword)
     if result:
         array = join(result,ranks)
-        sortedArray = quicksort(array,0,len(array)-1)
+        length = len(array)
+        sortedArray = quicksort(array,length,0,length-1)
         finalArray = []
         for item in sortedArray:
             finalArray.append(item[0])
@@ -57,28 +58,48 @@ def join(result,ranks):
     #print "----------"
     return temp
 
-def quicksort(array, left, right):
-    length = len(array)
-    if length <= 1:
-        return array
-    else:
-        if left < right:
-            p = len(array)/2
-            p2 = partition(array, left, right, p)
-            quicksort(array, left, p2-1)
-            quicksort(array, p2+1, right)
-        return array
+#def quicksort(array, left, right):
+#    length = len(array)
+#    if length <= 1:
+#        return array
+#    else:
+#        if left < right:
+#            p = len(array)/2
+#            p2 = partition(array, left, right, p)
+#            quicksort(array, left, p2-1)
+#            quicksort(array, p2+1, right)
+#        return array
+def quicksort(A, n, l, r):
+    if n <= 1:
+        return
+    
+    p = partition(A, l, r)
 
-def partition(array, left, right, index):
-    pivotValue = array[int(index)][1]
-    swap(array,int(index),int(right))
-    storeIndex = left
-    for i in range(left,right-1):
-        if array[i][1] > pivotValue:
-            swap(array,i,storeIndex)
-            storeIndex += 1
-    swap(array,storeIndex,right)
-    return storeIndex
+    quicksort(A, p-1-l, l, p-1)
+    quicksort(A, r-p+1, p, r)
+    return A
+    
+def partition(A, l, r):
+    p = A[l][1]
+    i = l+1
+    for j in range(l+1,r+1):
+        if A[j][1] > p:
+            swap(A,j,i)
+            i += 1
+    swap(A,l,i-1)
+    return i
+
+
+#def partition(array, left, right, index):
+#    pivotValue = array[int(index)][1]
+#    swap(array,int(index),int(right))
+#    storeIndex = left
+#    for i in range(left,right-1):
+#        if array[i][1] > pivotValue:
+#            swap(array,i,storeIndex)
+#            storeIndex += 1
+#    swap(array,storeIndex,right)
+#    return storeIndex
 
 def swap(array,x,y):
     t0 = array[x][0]

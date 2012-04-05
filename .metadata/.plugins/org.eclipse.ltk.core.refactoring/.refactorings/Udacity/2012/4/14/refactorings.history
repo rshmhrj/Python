@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Udacity/src/CS101/problems/QuickSor.py&apos; to &apos;QuickSort.py&apos;" description="Rename resource &apos;QuickSor.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/CS101/problems/QuickSor.py" name="QuickSort.py" stamp="1333653338700" updateReferences="true"/>
+</session>

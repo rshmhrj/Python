@@ -1,5 +1,6 @@
 MODULES_MANAGER_V2
 CS101.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101\__init__.py
+CS101.problems.QuickSort|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\QuickSort.py
 CS101.problems.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\__init__.py
 CS101.problems.final.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\__init__.py
 CS101.problems.final.exam.CollatzReturns|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\exam\CollatzReturns.py
@@ -12,6 +13,7 @@ CS101.problems.final.exam.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101
 CS101.problems.final.star.MultiwordQueries|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\star\MultiwordQueries.py
 CS101.problems.final.star.Reachability|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\star\Reachability.py
 CS101.problems.final.star.SpellingCorrection|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\star\SpellingCorrection.py
+CS101.problems.final.star.SpellingCorrectionOther|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\star\SpellingCorrectionOther.py
 CS101.problems.final.star.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\final\star\__init__.py
 CS101.problems.unit6.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\unit6\__init__.py
 CS101.problems.unit6.normal.DeepCount|C:\EclipseWorkspaces\Python\Udacity\src\CS101\problems\unit6\normal\DeepCount.py
@@ -26,4 +28,5 @@ CS101.problems.unit6.star.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101
 CS101.searchengine.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS101\searchengine\__init__.py
 CS373.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS373\__init__.py
 CS373.problems.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS373\problems\__init__.py
+CS373.roboticcar.LaneChangePlanner|C:\EclipseWorkspaces\Python\Udacity\src\CS373\roboticcar\LaneChangePlanner.py
 CS373.roboticcar.__init__|C:\EclipseWorkspaces\Python\Udacity\src\CS373\roboticcar\__init__.py

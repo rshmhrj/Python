@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="48" version="2.0">
+<workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="417" y="143">
+<window height="1052" maximized="true" width="771" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -10,6 +10,8 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.python.pydev.debug.actionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="37" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="87" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="130" y="22"/>
@@ -22,25 +24,71 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page focus="true" label="Workspace - Java EE">
+<page aggregateWorkingSetId="Aggregate for window 1333556207355" focus="true" label="Workspace - PyDev">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="LaneChangePlanner.py" partName="LaneChangePlanner" path="C:/EclipseWorkspaces/Python/Udacity/src/CS373/roboticcar/LaneChangePlanner.py" title="LaneChangePlanner" tooltip="Udacity/src/CS373/roboticcar/LaneChangePlanner.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3243" selectionTopPixel="1288"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="QuickSort.py" partName="QuickSort" path="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/QuickSort.py" title="QuickSort" tooltip="Udacity/src/CS101/problems/QuickSort.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Udacity/src/CS101/problems/QuickSort.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="362" selectionOffset="60" selectionTopPixel="64"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="OnlyALittleLucky.py" partName="OnlyALittleLucky" path="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py" title="OnlyALittleLucky" tooltip="Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8091" selectionTopPixel="5198"/>
+</editor>
 </editors>
 <views>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="254" org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="79"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<expanded>&#x0A;<category IMemento.internal.id="PyDev Problem (1 item)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="250" org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -51,14 +99,42 @@
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6/normal"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6/star"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/searchengine"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373/problems"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373/roboticcar"/>
+<selected IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
+</viewState>
 </view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -130,31 +206,22 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14f1b7f" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14f1b7f" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6995448" ratioLeft="461" ratioRight="198" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info folder="true" part="bottomRight" ratio="0.6995448" ratioLeft="461" ratioRight="198" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -165,8 +232,7 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -174,12 +240,9 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.69973546" ratioLeft="529" ratioRight="227" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="topRight" ratio="0.69973546" ratioLeft="529" ratioRight="227" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -187,14 +250,410 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="net.sourceforge.sqlexplorer.about"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
+<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
+<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<alwaysOnActionSet id="com.python.pydev.debug.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.python.pydev.exceptionBreakpoints"/>
+<alwaysOnActionSet id="org.python.pydev.pyPropertyTrace"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.datatools.sqltools.result.resultView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<show_view_action id="org.jboss.tools.common.model.ui.navigator.NavigatorViewPart"/>
+<perspective_action id="org.eclipse.datatools.sqltools.sqleditor.perspectives.EditorPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<perspective_action id="org.jboss.tools.jst.web.ui.WebDevelopmentPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7497309" ratioLeft="1393" ratioRight="465" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74973714" ratioLeft="713" ratioRight="238" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.datatools.sqltools.result.resultView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2721519" ratioLeft="258" ratioRight="690" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7497309" ratioLeft="1393" ratioRight="465" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11cd79d" ratio="0.6317444" ratioLeft="1206" ratioRight="703" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@15091f2" ratio="0.7248545" ratioLeft="872" ratioRight="331" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="1"/>
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="929" ratioRight="929" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b22a8c" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="net.sourceforge.sqlexplorer.about"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
+<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
+<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<show_view_action id="org.python.pydev.views.PyCodeCoverageView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonPackageWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonModuleWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.python.pydev.navigator.view"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@978886" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.python.pydev.navigator.view" appearance="2" expanded="2">
+<page content="org.python.pydev.navigator.view" label="PyDev Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1454838" ratio="0.7497349" ratioLeft="707" ratioRight="236" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.15568544" ratioLeft="293" ratioRight="1589" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7542553" ratioLeft="709" ratioRight="231" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@978886" ratio="0.74932975" ratioLeft="559" ratioRight="187" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/Udacity/src/CS101/problems/QuickSort.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
+</editors>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="220" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="220" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="88" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="126" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="279" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="408" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="126" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="88" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="104" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="88" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="126" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="279" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="60" y="362"/>
+</item>
+<item historyLabel="OnlyALittleLucky" index="1">
+<position info="not_deleted" x="2934" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="60" y="362"/>
+</item>
+<item historyLabel="OnlyALittleLucky" index="1">
+<position info="not_deleted" x="2263" y="301"/>
+</item>
+<item historyLabel="OnlyALittleLucky" index="1">
+<position info="not_deleted" x="2401" y="0"/>
+</item>
+<item historyLabel="QuickSort" index="0">
+<position info="not_deleted" x="60" y="362"/>
+</item>
+<item historyLabel="OnlyALittleLucky" index="1">
+<position info="not_deleted" x="2401" y="0"/>
+</item>
+<item historyLabel="OnlyALittleLucky" index="1">
+<position info="not_deleted" x="8091" y="0"/>
+</item>
+<item historyLabel="LaneChangePlanner" index="2">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item active="true" historyLabel="LaneChangePlanner" index="2">
+<position info="not_deleted" x="3892" y="2766"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@978886"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -203,9 +662,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="OnlyALittleLucky.py" tooltip="Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="QuickSor.py" tooltip="Udacity/src/CS101/problems/QuickSor.py">
+<persistable path="/Udacity/src/CS101/problems/QuickSor.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="LaneChangePlanner.py" tooltip="Udacity/src/CS373/roboticcar/LaneChangePlanner.py">
+<persistable path="/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpellingCorrectionOther.py" tooltip="Udacity/src/CS101/problems/final/star/SpellingCorrectionOther.py">
+<persistable path="/Udacity/src/CS101/problems/final/star/SpellingCorrectionOther.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="MultiwordQueries.py" tooltip="Udacity/src/CS101/problems/final/star/MultiwordQueries.py">
+<persistable path="/Udacity/src/CS101/problems/final/star/MultiwordQueries.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpellingCorrection.py" tooltip="Udacity/src/CS101/problems/final/star/SpellingCorrection.py">
+<persistable path="/Udacity/src/CS101/problems/final/star/SpellingCorrection.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="KhayyamTriangle.py" tooltip="Udacity/src/CS101/problems/unit6/star/KhayyamTriangle.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/star/KhayyamTriangle.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="FamilyTrees.py" tooltip="Udacity/src/CS101/problems/unit6/star/FamilyTrees.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/star/FamilyTrees.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="FeelingLucky.py" tooltip="Udacity/src/CS101/problems/unit6/normal/FeelingLucky.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/normal/FeelingLucky.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="DeepCount.py" tooltip="Udacity/src/CS101/problems/unit6/normal/DeepCount.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/normal/DeepCount.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpreadingUdaciousness.py" tooltip="Udacity/src/CS101/problems/unit6/normal/SpreadingUdaciousness.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/normal/SpreadingUdaciousness.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="RabbitsMultiplying.py" tooltip="Udacity/src/CS101/problems/unit6/normal/RabbitsMultiplying.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/normal/RabbitsMultiplying.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="Udacity/src/CS101/problems/unit6/star/__init__.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/star/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="Udacity/src/CS101/problems/unit6/normal/__init__.py">
+<persistable path="/Udacity/src/CS101/problems/unit6/normal/__init__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="Udacity/src/CS101/problems/tough/__init__.py">
+<persistable path="/Udacity/src/CS101/problems/tough/__init__.py"/>
+</file>
+</mruList>
 </workbench>
