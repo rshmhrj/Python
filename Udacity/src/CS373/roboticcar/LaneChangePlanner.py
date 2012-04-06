@@ -1,8 +1,3 @@
-'''
-Created on Apr 5, 2012
-
-@author: Rishi Maharaj
-'''
 # -------------------
 # Background Information
 #
@@ -91,21 +86,112 @@ def build_road(length, lane_speeds, print_flag = False, obstacles = False, obsta
 # plan - Returns cost to get from init to goal on road given a
 # lane_change_cost.
 #
+#def plan(road, lane_change_cost, init, goal): # Don't change the name of this function!
+#    
+#    #
+#    #    #
+#    sx = init[0]
+#    sy = init[1]
+#    ex = goal[0]
+#    ey = goal[1]
+#    y = sy
+#    cost = 0.0
+#    for x in range(sx,ex): # move from start to end
+#        cost += road[x,y]
+#        print x + ',' + y + ': ' + cost
+#        if ((x - ex) > (ey - y) and y > 0): # simple: move to faster lane
+#            y = y - 1
+#            cost += lane_change_cost
+#            print x + ',' + y + ': ' + cost + ' lanechange'
+#        if (x - ex) <= (ey - y): # move back to end
+#            y = y + 1
+#            cost += lane_change_cost
+#            print x + ',' + y + ': ' + cost + ' lanechange back'
+#        
+#    # Insert Code Here
+#    print 'total cost: ' + str(cost)
+#    # Insert Code Here
+#    #
+#    #
+#    return cost
 def plan(road, lane_change_cost, init, goal): # Don't change the name of this function!
-    cost = 0
-    print init
-    print goal
-    #
-    #
-    # Insert Code Here
-    #
-    #
+    #closed = [[0 for row in range(len(road[0]))] for col in range(len(road))]
+    #closed[init[0]][init[1]] = 1
+    delta = [[1, 1 ], # shift lane up
+             [ -1, 1], # shift lane down
+             [ 0, 1 ]] # go straight
+    
+    heuristic = [[999.0 for row in range(len(road[0]))] for col in range(len(road))]
+    checked = [[0 for row in range(len(road[0]))] for col in range(len(road))]
+    heuristic[goal[0]][goal[1]] = 0
+    test = [[goal[0], goal[1]]]
+    done = False
+    
+    while not done:
+        test.sort()
+        test.reverse()
+        next = test.pop()
+        x = next[0]
+        y = next[1]
+        
+        for i in range(len(delta)):
+            x2 = x - delta[i][0]
+            y2 = y - delta[i][1]
+            if x2 >= 0 and x2 < len(road) and y2 >=0 and y2 < len(road[0]):
+                if i == 2:
+                    cost = 0.0
+                else:
+                    cost = lane_change_cost
+                if road[x2][y2] == 0:
+                    tmp = 500
+                else:
+                    tmp = heuristic[x][y] + 1.0 / road[x2][y2] + cost
+                if tmp < heuristic[x2][y2]:
+                    heuristic[x2][y2] = tmp             
+                if checked[x2][y2] < 5:    
+                    test.append([x2, y2])
+                    checked[x2][y2] += 1
+        if len(test) == 0:
+            done = True        
+                        
+    closed = [[0 for row in range(len(road[0]))] for col in range(len(road))]
+    closed[init[0]][init[1]] = 1
+    x = init[0]
+    y = init[1]
+    g = 0.0
+    f = heuristic[x][y]
+
+    open = [[f, g, x, y]]
+    
+    found = False
+    
+    while not found:
+        open.sort()
+        open.reverse()
+        next = open.pop()
+        x = next[2]
+        y = next[3]
+        g = next[1]
+        f = next[0]
+        
+        if x == goal[0] and y == goal[1]:
+            found = True
+            cost = g
+        else:
+            for i in range(len(delta)):
+                x2 = x + delta[i][0]
+                y2 = y + delta[i][1]
+                if x2 >= 0 and x2 < len(road) and y2 >=0 and y2 < len(road[0]):
+                    if closed[x2][y2] == 0 and road[x2][y2] != 0:
+                        if i == 2:
+                            cost = 0.0
+                        else:
+                            cost = lane_change_cost
+                        g2 = g + (1.0 / road[x2][y2]) + cost
+                        f2 = g2 + heuristic[x2][y2]
+                        open.append([f2, g2, x2, y2])
+                        closed[x2][y2] = 1
     return cost
-
-road = [[80, 80, 80, 80, 80],
-        [60, 60, 60, 60, 60]]
-
-plan(road, 1.0/100, road[len(road)-1][0], road[len(road)-1][len(road[len(road)-1])-1] )
 
 ################# TESTING ##################
        
@@ -114,67 +200,67 @@ plan(road, 1.0/100, road[len(road)-1][0], road[len(road)-1][len(road[len(road)-1
 # data from list called test[]. Uncomment the call
 # to solution_check at the bottom to test your code.
 #
-#def solution_check(test, epsilon = 0.00001):
-#    answer_list = []
-#    for i in range(len(test[0])):
-#        user_cost = plan(test[0][i], test[1][i], test[2][i], test[3][i])
-#        true_cost = test[4][i]
-#        if abs(user_cost - true_cost) < epsilon:
-#            answer_list.append(1)
-#        else:
-#            answer_list.append(0)
-#    correct_answers = 0
-#    print
-#    for i in range(len(answer_list)):
-#        if answer_list[i] == 1:
-#            print 'Test case', i+1, 'passed!'
-#            correct_answers += 1
-#        else:
-#            print 'Test case', i+1, 'failed.'
-#    if correct_answers == len(answer_list):
-#        print "\nYou passed all test cases!"
-#        return True
-#    else:
-#        print "\nYou passed", correct_answers, "of", len(answer_list), "test cases. Try to get them all!"
-#        return False
-#    
-## Test Case 1 (FAST left lane)
-#test_road1 = build_road(8, [100, 10, 1])
-#lane_change_cost1 = 1.0 / 1000.0
-#test_init1 = [len(test_road1) - 1, 0]
-#test_goal1 = [len(test_road1) - 1, len(test_road1[0]) - 1]
-#true_cost1 = 1.244
-#
-## Test Case 2 (more realistic road)
-#test_road2 = build_road(14, [80, 60, 40, 20])
-#lane_change_cost2 = 1.0 / 100.0
-#test_init2 = [len(test_road2) - 1, 0]
-#test_goal2 = [len(test_road2) - 1, len(test_road2[0]) - 1]
-#true_cost2 = 0.293333333333
-#
-## Test Case 3 (Obstacles included)
-#test_road3 = [[50, 50, 50, 50, 50, 40, 0, 40, 50, 50, 50, 50, 50, 50, 50], # left lane: 50 km/h
-#              [40, 40, 40, 40, 40, 30, 20, 30, 40, 40, 40, 40, 40, 40, 40],
-#              [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]] # right lane: 30 km/h
-#lane_change_cost3 = 1.0 / 500.0
-#test_init3 = [len(test_road3) - 1, 0]
-#test_goal3 = [len(test_road3) - 1, len(test_road3[0]) - 1]
-#true_cost3 = 0.355333333333
-#
-## Test Case 4 (Slalom)
-#test_road4 = [[50, 50, 50, 50, 50, 40,  0, 40, 50, 50,  0, 50, 50, 50, 50], # left lane: 50 km/h
-#              [40, 40, 40, 40,  0, 30, 20, 30,  0, 40, 40, 40, 40, 40, 40],
-#              [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]] # right lane: 30 km/h
-#lane_change_cost4 = 1.0 / 65.0
-#test_init4 = [len(test_road4) - 1, 0]
-#test_goal4 = [len(test_road4) - 1, len(test_road4[0]) - 1]
-#true_cost4 = 0.450641025641
-#
-#
-#testing_suite = [[test_road1, test_road2, test_road3, test_road4],
-#                 [lane_change_cost1, lane_change_cost2, lane_change_cost3, lane_change_cost4],
-#                 [test_init1, test_init2, test_init3, test_init4],
-#                 [test_goal1, test_goal2, test_goal3, test_goal4],
-#                 [true_cost1, true_cost2, true_cost3, true_cost4]]
-#
-##solution_check(testing_suite) #UNCOMMENT THIS LINE TO TEST YOUR CODE
+def solution_check(test, epsilon = 0.00001):
+    answer_list = []
+    for i in range(len(test[0])):
+        user_cost = plan(test[0][i], test[1][i], test[2][i], test[3][i])
+        true_cost = test[4][i]
+        if abs(user_cost - true_cost) < epsilon:
+            answer_list.append(1)
+        else:
+            answer_list.append(0)
+    correct_answers = 0
+    print
+    for i in range(len(answer_list)):
+        if answer_list[i] == 1:
+            print 'Test case', i+1, 'passed!'
+            correct_answers += 1
+        else:
+            print 'Test case', i+1, 'failed.'
+    if correct_answers == len(answer_list):
+        print "\nYou passed all test cases!"
+        return True
+    else:
+        print "\nYou passed", correct_answers, "of", len(answer_list), "test cases. Try to get them all!"
+        return False
+    
+# Test Case 1 (FAST left lane)
+test_road1 = build_road(8, [100, 10, 1])
+lane_change_cost1 = 1.0 / 1000.0
+test_init1 = [len(test_road1) - 1, 0]
+test_goal1 = [len(test_road1) - 1, len(test_road1[0]) - 1]
+true_cost1 = 1.244
+
+# Test Case 2 (more realistic road)
+test_road2 = build_road(14, [80, 60, 40, 20])
+lane_change_cost2 = 1.0 / 100.0
+test_init2 = [len(test_road2) - 1, 0]
+test_goal2 = [len(test_road2) - 1, len(test_road2[0]) - 1]
+true_cost2 = 0.293333333333
+
+# Test Case 3 (Obstacles included)
+test_road3 = [[50, 50, 50, 50, 50, 40, 0, 40, 50, 50, 50, 50, 50, 50, 50], # left lane: 50 km/h
+              [40, 40, 40, 40, 40, 30, 20, 30, 40, 40, 40, 40, 40, 40, 40],
+              [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]] # right lane: 30 km/h
+lane_change_cost3 = 1.0 / 500.0
+test_init3 = [len(test_road3) - 1, 0]
+test_goal3 = [len(test_road3) - 1, len(test_road3[0]) - 1]
+true_cost3 = 0.355333333333
+
+# Test Case 4 (Slalom)
+test_road4 = [[50, 50, 50, 50, 50, 40,  0, 40, 50, 50,  0, 50, 50, 50, 50], # left lane: 50 km/h
+              [40, 40, 40, 40,  0, 30, 20, 30,  0, 40, 40, 40, 40, 40, 40],
+              [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]] # right lane: 30 km/h
+lane_change_cost4 = 1.0 / 65.0
+test_init4 = [len(test_road4) - 1, 0]
+test_goal4 = [len(test_road4) - 1, len(test_road4[0]) - 1]
+true_cost4 = 0.450641025641
+
+
+testing_suite = [[test_road1, test_road2, test_road3, test_road4],
+                 [lane_change_cost1, lane_change_cost2, lane_change_cost3, lane_change_cost4],
+                 [test_init1, test_init2, test_init3, test_init4],
+                 [test_goal1, test_goal2, test_goal3, test_goal4],
+                 [true_cost1, true_cost2, true_cost3, true_cost4]]
+
+solution_check(testing_suite) #UNCOMMENT THIS LINE TO TEST YOUR CODE

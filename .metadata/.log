@@ -371,3 +371,82 @@ Binding(CTRL+SHIFT+3,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+!SESSION 2012-04-06 15:14:25.158 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.python.pydev.core 1 1 2012-04-06 15:15:19.248
+!MESSAGE Did not expect adapter request: interface org.eclipse.ui.IActionFilter
+!STACK 0
+java.lang.RuntimeException: Did not expect adapter request: interface org.eclipse.ui.IActionFilter
+	at org.python.pydev.core.log.Log.logInfo(Log.java:112)
+	at org.python.pydev.navigator.elements.WrappedResource.getAdapterFromActualObject(WrappedResource.java:159)
+	at org.python.pydev.navigator.elements.WrappedResource.getAdapter(WrappedResource.java:105)
+	at org.eclipse.ui.internal.util.Util.getAdapter(Util.java:109)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.getActionFilter(ActionExpression.java:471)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.preciselyMatches(ActionExpression.java:524)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.isEnabledFor(ActionExpression.java:499)
+	at org.eclipse.ui.internal.ActionExpression$OrExpression.isEnabledFor(ActionExpression.java:582)
+	at org.eclipse.ui.internal.ActionExpression$SingleExpression.isEnabledFor(ActionExpression.java:743)
+	at org.eclipse.ui.internal.ActionExpression.isEnabledFor(ActionExpression.java:1053)
+	at org.eclipse.ui.internal.decorators.DecoratorDefinition.isEnabledFor(DecoratorDefinition.java:282)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.getDecoratorsFor(DecoratorManager.java:382)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecoratorsFor(LightweightDecoratorManager.java:315)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:340)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface 2 0 2012-04-06 15:48:45.875
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-04-06 15:48:45.875
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,com.python.pydev.analysis.actions.PyGlobalsBrowserWorkbench),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyShowBrowser),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2012-04-06 16:06:29.389
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-04-06 16:06:29.389
+!MESSAGE A conflict occurred for CTRL+SHIFT+3:
+Binding(CTRL+SHIFT+3,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.debug.ui.script.opensource,Open Source,
+		Shows the JavaScript source for the selected script element,
+		Category(org.eclipse.wst.jsdt.debug.ui.category,JavaScript Debug,Tooling for debugging JavaScript,true),
+		org.eclipse.wst.jsdt.debug.internal.ui.actions.OpenSourceAction,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+SHIFT+3,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.uncomment,Python Uncomment,
+		Uncomments a python line (Removes # from the beggining of the line),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyUncomment),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)

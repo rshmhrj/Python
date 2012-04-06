@@ -1,7 +1,1 @@
-INSTUPCS373.roboticcar.LaneChangePlanner
-C:\EclipseWorkspaces\Python\Udacity\src\CS373\roboticcar\LaneChangePlanner.py
-INFOS:&&2|1|2|0&&2|3|2|0&&3|4|2|0
-CS373.roboticcar.LaneChangePlanner=2
-plan=3
-build_road=1
-road=4
+DELSTRCS373.roboticcar.LaneChangePlanner
