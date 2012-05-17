@@ -1,0 +1,12 @@
+'''
+Created on May 17, 2012
+
+@author: Rishi Maharaj
+'''
+import binascii
+
+def hex2str(a):
+    return binascii.unhexlify(a);
+
+def xor(a,b,pad):
+    

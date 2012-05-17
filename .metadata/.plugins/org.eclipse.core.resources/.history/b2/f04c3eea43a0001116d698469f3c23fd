@@ -1,0 +1,11 @@
+'''
+Created on May 17, 2012
+
+@author: Rishi Maharaj
+'''
+import random
+import Cryptography.week1.PRG
+
+ouputs = [210205973, 22795300, 58776750, 121262470, 264731963, 140842553, 242590528, 195244728, 86752752]
+
+#choose value x between 0 and p (at random), see what value of y is needed to get second output.

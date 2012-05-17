@@ -1,0 +1,65 @@
+'''
+Created on May 17, 2012
+
+@author: Rishi Maharaj
+'''
+import random
+class WeakPrngModified(object):
+    def __init__(self, p, x, y):   # generate seed with 56 bits of entropy
+        self.p = p
+        self.x = x
+        self.y = y
+   
+    def next(self):
+        # x_{i+1} = 2*x_{i}+5  (mod p)
+        self.x = (2*self.x + 5) % self.p
+
+        # y_{i+1} = 3*y_{i}+7 (mod p)
+        self.y = (3*self.y + 7) % self.p
+
+        # z_{i+1} = x_{i+1} xor y_{i+1}
+        return (self.x ^ self.y) 
+
+
+#import Cryptography.week1.PRG.WeakPrng
+
+outputs = [210205973, 22795300, 58776750, 121262470, 264731963, 140842553, 242590528, 195244728, 86752752]
+
+#choose value x between 0 and p (at random), see what value of y is needed to get second output.
+P = 295075153L
+result = []
+while result != outputs:
+    x1 = random.randint(0,P)
+    print x1
+    
+    x2 = 2*x1 + 5
+    
+    print x2
+    
+    y2 = x2 ^ outputs[1]
+    print y2
+    
+    y1 = (y2 - 7 )/3
+    print y1
+    print "------------------------"
+    p1 = WeakPrngModified(P, x1, y1)
+    for i in range(1, 10):
+        result.append(p1.next())
+    if result == outputs:
+        print "LAST = "
+        print p1.next()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="46" version="2.0">
+<workbench progressCount="39" version="2.0">
 <workbenchAdvisor/>
-<window height="1052" maximized="true" width="771" x="0" y="0">
+<window height="788" maximized="true" width="771" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
-<coolbarLayout locked="0">
+<coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.python.pydev.debug.actionSet" itemType="typeToolBarContribution" x="61" y="22"/>
-<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="37" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
-<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="87" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="130" y="22"/>
-<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="37" y="22"/>
-<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.jboss.tools.jst.jsp.toolbars.sampleToolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.jst.web.ui.server.actionSet" itemType="typeToolBarContribution" x="154" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1333556207355" focus="true" label="Workspace - Debug">
+<page aggregateWorkingSetId="Aggregate for window 1333556207355" focus="true" label="Workspace - PyDev">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -37,21 +37,31 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="LaneChangePlanner.py" partName="LaneChangePlanner" path="C:/EclipseWorkspaces/Python/Udacity/src/CS373/roboticcar/LaneChangePlanner.py" title="LaneChangePlanner" tooltip="Udacity/src/CS373/roboticcar/LaneChangePlanner.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5543" selectionTopPixel="2918"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="OneTimePad.py" partName="OneTimePad" path="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week1/OneTimePad.py" title="OneTimePad" tooltip="SEE/src/Cryptography/week1/OneTimePad.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SEE/src/Cryptography/week1/OneTimePad.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="162" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="QuickSort.py" partName="QuickSort" path="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/QuickSort.py" title="QuickSort" tooltip="Udacity/src/CS101/problems/QuickSort.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Udacity/src/CS101/problems/QuickSort.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="362" selectionOffset="60" selectionTopPixel="64"/>
+<editor id="org.python.pydev.editor.PythonEditor" name="Crypto.py" partName="Crypto" path="C:/EclipseWorkspaces/python/SEE/src/Cryptography/Crypto.py" title="Crypto" tooltip="SEE/src/Cryptography/Crypto.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SEE/src/Cryptography/Crypto.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="392" selectionTopPixel="0"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="OnlyALittleLucky.py" partName="OnlyALittleLucky" path="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py" title="OnlyALittleLucky" tooltip="Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8091" selectionTopPixel="5198"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="WeakPRG.py" partName="WeakPRG" path="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week1/WeakPRG.py" title="WeakPRG" tooltip="SEE/src/Cryptography/week1/WeakPRG.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SEE/src/Cryptography/week1/WeakPRG.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1364" selectionTopPixel="642"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="PRG.py" partName="PRG" path="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week1/PRG.py" title="PRG" tooltip="SEE/src/Cryptography/week1/PRG.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SEE/src/Cryptography/week1/PRG.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="41" selectionOffset="593" selectionTopPixel="72"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="collisions.py" partName="collisions" path="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week3/collisions.py" title="collisions" tooltip="SEE/src/Cryptography/week3/collisions.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SEE/src/Cryptography/week3/collisions.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="89" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -87,7 +97,8 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>&#x0A;<category IMemento.internal.id="PyDev Problem (1 item)"/>
+<expanded>
+<category IMemento.internal.id="org.python.pydev.debug.pyStopBreakpointMarker (7 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="250" org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
@@ -101,7 +112,8 @@
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (1 item)"/>
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -118,23 +130,19 @@
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6/normal"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/problems/unit6/star"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS101/searchengine"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373/problems"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373/roboticcar"/>
-<expanded IMemento.internal.id="C:/EclipseWorkspaces/Python/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/SEE"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/SEE/src"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/SEE/src/Cryptography"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week1"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week3"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/Udacity/src"/>
+<expanded IMemento.internal.id="C:/EclipseWorkspaces/python/Udacity/src/CS373/roboticcar"/>
+<selected IMemento.internal.id="C:/EclipseWorkspaces/python/SEE/src/Cryptography/week1/PRG.py"/>
 </viewState>
 </view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -149,13 +157,6 @@
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
-<alwaysOnActionSet id="net.sourceforge.sqlexplorer.about"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
-<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
-<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
-<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
@@ -206,22 +207,31 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14f1b7f" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14f1b7f" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6995448" ratioLeft="461" ratioRight="198" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info folder="true" part="bottomRight" ratio="0.6995448" ratioLeft="461" ratioRight="198" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -232,7 +242,8 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -240,9 +251,12 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.69973546" ratioLeft="529" ratioRight="227" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="topRight" ratio="0.69973546" ratioLeft="529" ratioRight="227" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -264,13 +278,6 @@
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
-<alwaysOnActionSet id="net.sourceforge.sqlexplorer.about"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
-<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
-<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
-<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
 <alwaysOnActionSet id="com.python.pydev.debug.actionSet"/>
@@ -362,8 +369,8 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@15091f2" ratio="0.6691604" ratioLeft="805" ratioRight="398" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@15091f2" ratio="0.6209553" ratioLeft="403" ratioRight="246" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -403,13 +410,6 @@
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
-<alwaysOnActionSet id="net.sourceforge.sqlexplorer.about"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
-<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
-<alwaysOnActionSet id="org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
-<alwaysOnActionSet id="org.jboss.tools.jst.web.ui.server.actionSet"/>
-<alwaysOnActionSet id="org.jboss.tools.common.model.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
@@ -452,7 +452,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1454838" ratio="0.6550633" ratioLeft="621" ratioRight="327" relationship="4" relative="topLeft">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1454838" ratio="0.6015873" ratioLeft="379" ratioRight="251" relationship="4" relative="topLeft">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -469,7 +469,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.15568544" ratioLeft="293" ratioRight="1589" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.27334338" ratioLeft="363" ratioRight="965" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.7542553" ratioLeft="709" ratioRight="231" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
@@ -491,157 +491,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/Udacity/src/CS373/roboticcar/LaneChangePlanner.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/SEE/src/Cryptography/week1/WeakPRG.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/SEE/src/Cryptography/week1/PRG.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/SEE/src/Cryptography/week3/collisions.py"/>
 </editors>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4405" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="7166" y="0"/>
+<item historyLabel="collisions" index="2">
+<position info="not_deleted" x="89" y="4"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4076" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="585" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4571" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="168" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4608" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="585" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4641" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="77" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4665" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="46" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4686" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="79" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4707" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="545" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4731" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4758" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="194" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4779" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="233" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4810" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="545" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4847" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="565" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4881" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="589" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4915" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="338" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4992" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="355" y="23"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5075" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="421" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5120" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="438" y="14"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="7166" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5016" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="522" y="15"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4076" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="589" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4571" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="565" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4992" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="589" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5075" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="338" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5120" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="421" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5213" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5284" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5329" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5387" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5432" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5475" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4810" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4847" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4881" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="50" y="10"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4915" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4810" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="587" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4847" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4881" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="587" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4915" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4992" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="355" y="23"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5020" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5120" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="355" y="23"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5213" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5284" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="79" y="462"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5329" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1364" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5387" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="565" y="69"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5432" y="0"/>
+<item historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1364" y="0"/>
 </item>
-<item historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="5475" y="0"/>
+<item historyLabel="PRG" index="1">
+<position info="not_deleted" x="593" y="41"/>
 </item>
-<item active="true" historyLabel="LaneChangePlanner" index="0">
-<position info="not_deleted" x="4810" y="0"/>
+<item active="true" historyLabel="WeakPRG" index="0">
+<position info="not_deleted" x="1364" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -664,6 +666,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="collisions.py" tooltip="SEE/src/Cryptography/week3/collisions.py">
+<persistable path="/SEE/src/Cryptography/week3/collisions.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="PRG.py" tooltip="SEE/src/Cryptography/week1/PRG.py">
+<persistable path="/SEE/src/Cryptography/week1/PRG.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="WeakPRG.py" tooltip="SEE/src/Cryptography/week1/WeakPRG.py">
+<persistable path="/SEE/src/Cryptography/week1/WeakPRG.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Crypto.py" tooltip="SEE/src/Cryptography/Crypto.py">
+<persistable path="/SEE/src/Cryptography/Crypto.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="OneTimePad.py" tooltip="SEE/src/Cryptography/week1/OneTimePad.py">
+<persistable path="/SEE/src/Cryptography/week1/OneTimePad.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="SEE/src/Cryptography/__init__.py">
+<persistable path="/SEE/src/Cryptography/__init__.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="OnlyALittleLucky.py" tooltip="Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py">
 <persistable path="/Udacity/src/CS101/problems/unit6/star/OnlyALittleLucky.py"/>
 </file>
@@ -690,24 +710,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="FeelingLucky.py" tooltip="Udacity/src/CS101/problems/unit6/normal/FeelingLucky.py">
 <persistable path="/Udacity/src/CS101/problems/unit6/normal/FeelingLucky.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="DeepCount.py" tooltip="Udacity/src/CS101/problems/unit6/normal/DeepCount.py">
-<persistable path="/Udacity/src/CS101/problems/unit6/normal/DeepCount.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="SpreadingUdaciousness.py" tooltip="Udacity/src/CS101/problems/unit6/normal/SpreadingUdaciousness.py">
-<persistable path="/Udacity/src/CS101/problems/unit6/normal/SpreadingUdaciousness.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="RabbitsMultiplying.py" tooltip="Udacity/src/CS101/problems/unit6/normal/RabbitsMultiplying.py">
-<persistable path="/Udacity/src/CS101/problems/unit6/normal/RabbitsMultiplying.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="Udacity/src/CS101/problems/unit6/star/__init__.py">
-<persistable path="/Udacity/src/CS101/problems/unit6/star/__init__.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="Udacity/src/CS101/problems/unit6/normal/__init__.py">
-<persistable path="/Udacity/src/CS101/problems/unit6/normal/__init__.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="Udacity/src/CS101/problems/tough/__init__.py">
-<persistable path="/Udacity/src/CS101/problems/tough/__init__.py"/>
 </file>
 </mruList>
 </workbench>
