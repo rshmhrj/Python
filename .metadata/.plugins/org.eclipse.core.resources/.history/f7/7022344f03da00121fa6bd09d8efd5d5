@@ -1,0 +1,37 @@
+'''
+Created on Jun 20, 2013
+
+@author: rmaharaj
+@summary: This program will read a file and perform a linear regression.
+'''
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+# Reuse Instructions
+# N/A
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+
+# imported methods
+from lib import prompts as prompts
+from lib import maths as maths
+
+# global variables
+filename = ""
+
+def main():
+    print "Welcome! This program will read a file and perform a linear regression.\n"
+    
+    # prompt for entry of file name & entry mode, and set global variables
+    set_entryMode(prompts.entry_mode_prompt("\nPlease enter the mode: Read, Write, or Modify"))
+    set_filename(prompts.filename_prompt("Please enter the full file path & file name:", False))
+
+def body():
+    pass
+
+def get_filename():
+    print "File Name:", filename
+    return filename
+
+def set_filename(value):
+    global filename
+    filename = value
+
+main()

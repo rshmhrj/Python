@@ -1,0 +1,37 @@
+'''
+Created on Jun 15, 2013
+
+@author: rmaharaj
+@summary: This file contains functions to check if certain things are valid.
+'''
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+# Reuse Instructions
+# N/A
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+
+# imports
+import re
+
+def is_valid_number(num):
+    pattern = re.compile(r'-?[1-9]+\d*[.]?[0-9]*\Z')
+    if pattern.match(num):
+        return True
+    else:
+        print "Invalid number entered."
+        return False
+
+def is_valid_integer(num):
+    if (num.find("-") == -1) and (num.find(".") == -1) and (int(num) > 0):
+        return True
+    else:
+        print "Invalid integer entered."
+        return False
+    
+def is_valid_array(array, maxArraySize):
+    pattern = re.compile(r'(-?[1-9]+\d*[.]?[0-9]*){1}\Z|(-?[1-9]+\d*[.]?[0-9]*\s{1}){1,%s}(-?[1-9]+\d*[.]?[0-9]*)\Z'%(maxArraySize-1))
+    if pattern.match(array):
+        return True
+    else:
+        print "Invalid array entered."
+        return False
+

@@ -1,0 +1,65 @@
+-- VERSION_3
+-- START DISKCACHE
+D:\EclipseWorkspaces\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Coursera\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+maths.__init__|0|D:\EclipseWorkspaces\Python\Coursera\src\maths\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+6=InteractivePython.test
+7=InteractivePython.WatchExample
+8=Cryptography.Crypto
+1=InteractivePython.Stopwatch
+4=maths.__init__
+3=InteractivePython.ballPhysics_RishiTest
+2=InteractivePython.Pong
+5=InteractivePython.Screensaver
+-- END DICTIONARY
+-- START TREE 1
+42
+A|1|A!11@
+B|1|B!11@
+C|1|C!11@
+D|1|D!11@
+bal|8|ball_pos!19@ball_radius!27@ball_vel!19@BALL_RADIUS!19@ball_init!18@ball_pos!27@ball_vel!27@ball_color!27@
+bin|1|binary_to_decimal!34@
+col|2|colors!27@colors!43@
+cur|1|currentColor!43@
+dec|2|decimal_to_ternary!34@decimal_to_binary!34@
+dh|1|dh!50@
+dra|6|draw!58@draw!18@draw_handler!10@draw!42@draw!26@draw_dots!58@
+f|1|f!51@
+for|1|format!10@
+fra|4|frame!19@frame!27@frame!11@frame!59@
+get|1|get_coords!58@
+hal|2|HALF_PAD_WIDTH!19@HALF_PAD_HEIGHT!19@
+hei|3|HEIGHT!27@HEIGHT!19@height!43@
+hex|1|hex2str!66@
+int|1|interval!43@
+ish|1|isHit!18@
+key|4|keydown!26@keydown!18@keyup!26@keyup!18@
+los|1|loss!11@
+maj|1|major_coord_list!59@
+mat|1|mathtest!34@
+mes|1|message!43@
+min|1|minor_coord_list!59@
+new|2|newbin!34@new_game!18@
+pad|11|paddle1_bot!19@paddle1_pos!19@paddle2_vel!19@PAD_HEIGHT!19@paddle2_pos!19@paddle2_top!19@paddle1_top!19@paddle1_vel!19@PAD_WIDTH!19@paddle2_bot!19@paddle_speed_constant!19@
+pos|1|position!43@
+res|5|reset!27@reset!58@reset_button!19@reset_handler!10@reset!26@
+rig|1|right!19@
+sco|4|score2_pos!19@score1_pos!19@score1!19@score2!19@
+spe|1|speed_constant!27@
+sta|3|start!58@started!11@start_handler!10@
+sto|3|stopped!11@stop_handler!10@stop!58@
+str|1|strxor!66@
+tic|2|tick!58@tick!42@
+tim|6|timer!11@timer_handler!10@timer!59@timer!27@timer_handler!26@time!11@
+upd|1|update!42@
+vel|6|vel_down!26@vel_up!26@vel_change!27@vel_down!27@vel_up!27@vel_change!26@
+wid|3|WIDTH!19@width!43@WIDTH!27@
+win|1|win!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
