@@ -4,10 +4,10 @@ Created on Jun 15, 2013
 @author: rmaharaj
 @summary: This program will either read a file, write to a file, or modify a file.
 '''
-# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 # Reuse Instructions
 # N/A
-# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 
 # imported methods
 import re, os
@@ -26,12 +26,12 @@ maxArraySize = 10
 # otherwise, the program will end.
 def main():
     print "Welcome! This program will either read from, write to, or modify a file of numbers.\n"
-
+    
     # prompt for entry of file name & entry mode, and set global variables
     set_entryMode(entry_mode_prompt("\nPlease enter the mode: Read, Write, or Modify"))
     set_filename(filename_prompt("Please enter the full file path & file name:", False))
     body()
-
+    
 def body():
     if entryMode == 0:
         read_from_file()
@@ -41,7 +41,7 @@ def body():
         modify_file()
     else:
         print "Entry mode error in body."
-
+        
 def read_from_file():
     fileToRead = open(filename, 'r')
     print fileToRead.read()
@@ -49,15 +49,15 @@ def read_from_file():
 
 def write_to_file():
     fileToWrite = open(filename, 'w')
-
+    
     # prompt for quantity of numbers
     n = int(numberQuantity_prompt("\nPlease enter n, the quantity of records to be entered. (INTEGERS ONLY)"))
     print "Please note that arrays should only contain numbers and spaces..."
-
+    
     numbers = []
-    for _ in range(0, n):
+    for _ in range(0,n):
         numbers.append(number_prompt(True))
-
+  
     with fileToWrite as f:
         f.writelines("\n".join(numbers))
     fileToWrite.close()
@@ -69,16 +69,16 @@ def modify_file():
         numbers.append(' '.join(line.split()))
     fileToModify.close()
 #     print numbers
-
+    
     print "\nFor each of the following numbers/arrays, please choose Accept, Replace, or Delete"
-
+    
     acceptAll = False
     # for each num in file, read -> accept, replace, delete
     for i, num in enumerate(numbers):
         if not acceptAll:
             print "\nPosition:", i + 1, ";   Number:", num
             modifyAction = modify_prompt()
-
+            
             if modifyAction == "accept":
                 pass
             elif modifyAction == "replace":
@@ -87,27 +87,27 @@ def modify_file():
                 numbers.pop(i)
             else:
                 print "Error with action:", modifyAction
-
+            
         # insert new num after, or before any other num
             countNumbersLeft = len(numbers) - (i + 1)
             if countNumbersLeft > 0:
                 print "\nThere are", str(countNumbersLeft), "numbers between this number and the end of the file."
                 doInsert = yes_no_prompt("Would you like to insert a number? Yes or No:")
-
+            
                 if doInsert == "yes":
                     insertWhere = insert_where_prompt(countNumbersLeft)
-                    numbers.insert(int(insertWhere) + i, number_prompt(True))
+                    numbers.insert(int(insertWhere)+i, number_prompt(True))
                 elif doInsert == "no":
                     pass
                 else:
                     print "Error with entry:", doInsert
-
+            
         # accept all numbers after
                 shouldAcceptAll = yes_no_prompt("\nWould you like to Accept all remaining numbers? Yes or No:")
                 if shouldAcceptAll == "yes":
                     acceptAll = True
                     continue
-
+        
         # save or save as
     saveOrSaveAs = save_or_saveAs_prompt("\nWould you like to save the current file, or save as a new file? Save / SaveAs / No (ONE WORD):")
     if saveOrSaveAs[0]:
@@ -120,14 +120,14 @@ def modify_file():
             fileToSave = filename_prompt("\nPlease enter the new full file path & file name:", True)
         else:
             print "Error, incorrect save/saveas entry. Not saving file."
-
+            
         if fileToSave != "":
             savedFile = open(fileToSave, 'w')
             savedFile.truncate()
             with savedFile as f:
                 f.writelines("\n".join(numbers))
                 savedFile.close()
-
+        
 def get_filename():
     print "File Name:", filename
     return filename
@@ -169,7 +169,7 @@ def number_prompt(firstTime):
         msg = "\nPlease enter a number/array:"
     else:
         msg = "\nPlease enter a replacement number/array:"
-
+    
     # test for space
     while not validEntry:
         num = raw_input(msg)
@@ -187,7 +187,7 @@ def entry_mode_prompt(msg):
         mode = raw_input(msg)
         if check_entryMode(mode):
             validMode = True
-
+            
         else:
             print "Invalid mode entered."
             if not fix_end_prompt():
@@ -217,7 +217,7 @@ def modify_prompt():
             if not fix_end_prompt():
                 validAction = True
     return modifyAction.lower()
-
+    
 def filename_prompt(msg, saveas):
     validFilename = False
     while not validFilename:
@@ -254,7 +254,7 @@ def insert_where_prompt(end):
             if not fix_end_prompt():
                 validWhere = True
     return where.lower()
-
+    
 def yes_no_prompt(msg):
     validAnswer = False
     while not validAnswer:
@@ -282,7 +282,7 @@ def is_valid_integer(num):
         return False
 
 def is_valid_array(array):
-    pattern = re.compile(r'(-?[1-9]+\d*[.]?[0-9]*){1}\Z|(-?[1-9]+\d*[.]?[0-9]*\s{1}){1,%s}(-?[1-9]+\d*[.]?[0-9]*)\Z' % (maxArraySize - 1))
+    pattern = re.compile(r'(-?[1-9]+\d*[.]?[0-9]*){1}\Z|(-?[1-9]+\d*[.]?[0-9]*\s{1}){1,%s}(-?[1-9]+\d*[.]?[0-9]*)\Z'%(maxArraySize-1))
     if pattern.match(array):
         return True
     else:

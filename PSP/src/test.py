@@ -8,16 +8,16 @@ Created on May 26, 2013
 
 import os, re
 # # asdf = "Hello World!"
-# #
+# # 
 # # something = raw_input("dude, enter something:")
 # # print type(something)
 # # print something
 # # print os.path.
-#
+# 
 # line = "Cats are smarter than dogs";
-#
+# 
 # matchObj = re.match(r'(.*) are(\.*)', line, re.M | re.I)
-#
+# 
 # # if matchObj:
 # #    print "matchObj.group() : ", matchObj.group()
 # #    print "matchObj.group(1) : ", matchObj.group(1)
@@ -31,7 +31,7 @@ import os, re
 #         print test_str,":  TRUE"
 #     else:
 #         print test_str,":  false"
-# #
+# #     
 # #     regex = re.search(pattern, test_str)
 # #     if re.search(pattern, test_str):
 # #         # Character other then . a-z 0-9 was found
@@ -39,7 +39,7 @@ import os, re
 # #     else:
 # #         # No character other then . a-z 0-9 was found
 # #         print 'Valid   : %r' % (test_str,)
-#
+#      
 # check(test_str='abcde.1')
 # check(test_str='abcde.1#')
 # check(test_str='ABCDE.12')
@@ -53,9 +53,9 @@ import os, re
 # check("-784320")
 # check('-----7982')
 # check('0823')
-#
-#
-#
+# 
+# 
+# 
 # def checkPath(p):
 #     #pattern = re.compile(r'[a-zA-Z].:[/|\].^[\/:*?"<>|]*[\.].[a-zA-Z]{3}')
 #     pattern = re.compile(r'\w{1}:{1}[\\|/]{1}.*[^\\/:*?"<>|]*[\.]*[.]{1}[\w]{3}')
@@ -63,7 +63,7 @@ import os, re
 #         print p,":  TRUE"
 #     else:
 #         print p,":  false"
-#
+# 
 # checkPath('c:/path.txt')
 # checkPath('c')
 # checkPath("C:/jest.doc")
@@ -83,14 +83,14 @@ import os, re
 def check_array(array):
     maxArraySize = 10
 #     pattern = re.compile(r'[-?[1-9]+\d*[.]?[0-9]*\s?]%d\Z'%maxArraySize)
-    pattern = re.compile(r'(-?[1-9]+\d*[.]?[0-9]*){1}\Z|(-?[1-9]+\d*[.]?[0-9]*\s{1}){1,%s}(-?[1-9]+\d*[.]?[0-9]*)\Z' % (maxArraySize - 1))
+    pattern = re.compile(r'(-?[1-9]+\d*[.]?[0-9]*){1}\Z|(-?[1-9]+\d*[.]?[0-9]*\s{1}){1,%s}(-?[1-9]+\d*[.]?[0-9]*)\Z'%(maxArraySize-1))
 #     pattern = re.compile(r'([0-9]*\s?)+\Z')
     if pattern.match(array):
-        print array, ":  TRUE"
+        print array,":  TRUE"
     else:
-        print array, ":  FALSE"
-
-
+        print array,":  FALSE"
+    
+    
 check_array('1')
 check_array('-123')
 check_array('45.67')

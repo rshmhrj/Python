@@ -1,12 +1,12 @@
 -- VERSION_3
 -- START DISKCACHE
-C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Commons\com.python.pydev.analysis\v1_indexcache
+D:\EclipseWorkspaces\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Commons\com.python.pydev.analysis\v1_indexcache
 .v1_indexcache
-lib.prompts|0|C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\prompts.py
-lib.__init__|0|C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\__init__.py
-lib.maths|0|C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\maths.py
-lib.files|0|C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\files.py
-lib.checks|0|C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\checks.py
+lib.prompts|0|D:\EclipseWorkspaces\Python\Commons\src\lib\prompts.py
+lib.__init__|0|D:\EclipseWorkspaces\Python\Commons\src\lib\__init__.py
+lib.maths|0|D:\EclipseWorkspaces\Python\Commons\src\lib\maths.py
+lib.files|0|D:\EclipseWorkspaces\Python\Commons\src\lib\files.py
+lib.checks|0|D:\EclipseWorkspaces\Python\Commons\src\lib\checks.py
 -- END DISKCACHE
 -- START DICTIONARY
 4
@@ -16,10 +16,13 @@ lib.checks|0|C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src
 2=lib.checks
 -- END DICTIONARY
 -- START TREE 1
-16
+24
+!<m|0|
 ave|2|average_double_array!10@average_array!10@
 cal|8|calc_significance!10@calc_beta_sub_1!10@calc_beta_sub_0!10@calc_prediction_range!10@calc_variance!10@calc_t_dist_values!10@calc_correlation!10@calc_std_dev!10@
 che|5|check_modifyAction!18@check_is_valid_file!26@check_file_for_valid_LR_data!26@check_entryMode!18@check_filename!26@
+dec|1|decimal!11@
+dow|0|
 ent|1|entry_mode_prompt!34@
 fil|1|filename_prompt!34@
 fix|1|fix_end_prompt!34@
@@ -29,9 +32,14 @@ lin|2|linear_regression!10@linear_regression_filename_prompt!34@
 loa|1|load_file_to_array!26@
 mod|1|modify_prompt!34@
 num|2|numberQuantity_prompt!34@number_prompt!34@
+out|0|
+par|0|
 sav|1|save_or_saveAs_prompt!34@
 spl|1|split_elements_of_array!26@
 sum|2|sum_array!10@sum_double_array!10@
+tdi|0|
+two|0|
+up|0|
 yes|1|yes_no_prompt!34@
 -- END TREE
 -- START TREE 2

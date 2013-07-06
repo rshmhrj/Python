@@ -1,9 +1,1 @@
-INSTUPlib.files
-C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\files.py
-INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0
-split_elements_of_array=6
-load_file_to_array=5
-lib.files=2
-check_filename=1
-check_file_for_valid_LR_data=4
-check_is_valid_file=3
+DELSTRlib.maths

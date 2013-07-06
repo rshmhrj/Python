@@ -4,14 +4,14 @@ Created on Jun 15, 2013
 @author: rmaharaj
 @summary: This file contains functions to manipulate files.
 '''
-# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 # Reuse Instructions
 # Ensure that project references the Commons project
 # add:
 #     import lib.files as files
 #   or
 #     from lib import files as files
-# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 
 # imports
 import os, re
@@ -65,9 +65,9 @@ def check_file_for_valid_LR_data(filename):
     f = split_elements_of_array(load_file_to_array(filename))
     if len(f) == 0:
         result = False
-    for i in range(0, len(f)):
+    for i in range(0,len(f)):
         if len(f[i]) == 3:
-            for j in range(0, 3):
+            for j in range(0,3):
                 if checks.is_valid_number_no_print(f[i][j]):
                     pass
                 else:
@@ -76,7 +76,7 @@ def check_file_for_valid_LR_data(filename):
         else:
             result = False
             break
-
+    
     return result
 
 def load_file_to_array(filename):
@@ -86,4 +86,4 @@ def load_file_to_array(filename):
     return f
 
 def split_elements_of_array(array):
-    return [(item.split()) for item in array]
+    return [(item.split()) for item in array] 

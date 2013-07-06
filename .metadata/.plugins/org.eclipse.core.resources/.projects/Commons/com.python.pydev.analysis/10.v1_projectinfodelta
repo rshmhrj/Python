@@ -1,14 +1,1 @@
-INSTUPlib.prompts
-C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\Commons\src\lib\prompts.py
-INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0&&2|7|2|0&&2|8|2|0&&2|9|2|0&&2|10|2|0&&2|11|2|0
-lib.prompts=2
-insert_where_prompt=10
-entry_mode_prompt=4
-save_or_saveAs_prompt=9
-numberQuantity_prompt=5
-fix_end_prompt=1
-linear_regression_filename_prompt=8
-yes_no_prompt=11
-filename_prompt=7
-modify_prompt=6
-number_prompt=3
+DELSTRlib.maths

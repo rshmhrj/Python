@@ -4,15 +4,15 @@ Created on Jun 8, 2013
 @author: rmaharaj
 @summary: This program will either read a file, write to a file, or modify a file.
 '''
-# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 # Reuse Instructions
 # program1b(filename, entryMode)
 # Purpose: to open filename in mode <entryMode>
 #     and either read the file or write numbers
 #     to the file.
-# filename must be a file, not a path
+# filename must be a file, not a path 
 # entryMode can only be "Read" or "Write"
-# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 
 
 # imported methods
@@ -30,12 +30,12 @@ entryMode = 0
 # otherwise, the program will end.
 def main():
     print "Welcome! This program will either read from, write to, or modify a file of numbers.\n"
-
+    
     # prompt for entry of file name & entry mode, and set global variables
     set_entryMode(entry_mode_prompt("\nPlease enter the mode: Read, Write, or Modify"))
     set_filename(filename_prompt("Please enter the full file path & file name:", False))
     body()
-
+    
 def body():
     if entryMode == 0:
         read_from_file()
@@ -45,7 +45,7 @@ def body():
         modify_file()
     else:
         print "Entry mode error in body."
-
+        
 def read_from_file():
     fileToRead = open(filename, 'r')
     print fileToRead.read()
@@ -53,21 +53,21 @@ def read_from_file():
 
 def write_to_file():
     fileToWrite = open(filename, 'w')
-
+    
     # prompt for quantity of numbers
     numberQuantity = raw_input("\nPlease enter n, the quantity of digits to be entered. (INTEGERS ONLY)")
     n = 0
-
+    
     while (n == 0):
         if is_valid_integer(numberQuantity):
             n = int(numberQuantity)
         else:
             numberQuantity = raw_input("Please enter a valid integer:")
-
+    
     numbers = []
-    for i in range(0, n):
+    for i in range(0,n):
         numbers.append(number_prompt(True))
-
+  
     with fileToWrite as f:
         f.writelines("\n".join(numbers))
     fileToWrite.close()
@@ -76,16 +76,16 @@ def modify_file():
     fileToModify = open(filename, 'r+')
     numbers = fileToModify.read().split()
     fileToModify.close()
-
+    
     print "\nFor each of the following numbers, please choose Accept, Replace, or Delete"
-
+    
     acceptAll = False
     # for each num in file, read -> accept, replace, delete
     for i, num in enumerate(numbers):
         if not acceptAll:
             print "\nPosition:", i + 1, ";   Number:", num
             modifyAction = modify_prompt()
-
+            
             if modifyAction == "accept":
                 pass
             elif modifyAction == "replace":
@@ -94,24 +94,24 @@ def modify_file():
                 numbers.pop(i)
             else:
                 print "Error with action:", modifyAction
-
+            
         # insert new num after, or before any other num
             countNumbersLeft = len(numbers) - (i + 1)
             print "\nThere are", str(countNumbersLeft), "numbers between this number and the end of the file."
             doInsert = yes_no_prompt("Would you like to insert a number? Yes or No:")
-
+            
             if doInsert == "yes":
                 insertWhere = insert_where_prompt(countNumbersLeft)
-                numbers.insert(int(insertWhere) + i, number_prompt(True))
+                numbers.insert(int(insertWhere)+i, number_prompt(True))
             else:
                 print "Error with entry:", doInsert
-
+            
         # accept all numbers after
             shouldAcceptAll = yes_no_prompt("\nWould you like to Accept all remaining numbers? Yes or No:")
             if shouldAcceptAll == "yes":
                 acceptAll = True
                 continue
-
+        
         # save or save as
     saveOrSaveAs = save_or_saveAs_prompt("\nWould you like to save the current file, or save as a new file? Save / SaveAs (ONE WORD):")
     if saveOrSaveAs[0]:
@@ -122,14 +122,14 @@ def modify_file():
             fileToSave = filename_prompt("\nPlease enter the new full file path & file name:", True)
         else:
             print "Error, incorrect save/saveas entry. Not saving file."
-
+            
         if fileToSave != "":
             savedFile = open(fileToSave, 'w')
             savedFile.truncate()
             with savedFile as f:
                 f.writelines("\n".join(numbers))
                 savedFile.close()
-
+        
 def get_filename():
     print "File Name:", filename
     return filename
@@ -187,7 +187,7 @@ def entry_mode_prompt(msg):
         mode = raw_input(msg)
         if check_entryMode(mode):
             validMode = True
-
+            
         else:
             print "Invalid mode entered."
             if not fix_end_prompt():
@@ -205,7 +205,7 @@ def modify_prompt():
             if not fix_end_prompt():
                 validAction = True
     return modifyAction.lower()
-
+    
 def filename_prompt(msg, saveas):
     validFilename = False
     while not validFilename:
@@ -242,7 +242,7 @@ def insert_where_prompt(end):
             if not fix_end_prompt():
                 validWhere = True
     return where.lower()
-
+    
 def yes_no_prompt(msg):
     validAnswer = False
     while not validAnswer:
