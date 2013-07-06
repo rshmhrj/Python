@@ -4,14 +4,14 @@ Created on Jun 15, 2013
 @author: rmaharaj
 @summary: This file contains functions to prompt for user entry.
 '''
-#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 # Reuse Instructions
 # Ensure that project references the Commons project
 # add:
 #     import lib.prompts as prompts
 #   or
 #     from lib import prompts as prompts
-#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 
 # imports
 import checks, files
@@ -36,7 +36,7 @@ def number_prompt(firstTime):
         msg = "\nPlease enter a number/array:"
     else:
         msg = "\nPlease enter a replacement number/array:"
-    
+
     # test for space
     while not validEntry:
         num = raw_input(msg)
@@ -83,7 +83,7 @@ def modify_prompt(msg):
             if not fix_end_prompt():
                 validAction = True
     return modifyAction.lower()
-    
+
 def filename_prompt(msg, saveas):
     validFilename = False
     while not validFilename:
@@ -140,7 +140,7 @@ def insert_where_prompt(end):
             if not fix_end_prompt():
                 validWhere = True
     return where.lower()
-    
+
 def yes_no_prompt(msg):
     validAnswer = False
     while not validAnswer:

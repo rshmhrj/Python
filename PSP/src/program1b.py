@@ -2,7 +2,7 @@
 Created on May 30, 2013
 
 @author: rmaharaj
-@summary: 
+@summary:
 Flow:
 1    Start program
 2    Enter the file name
@@ -18,15 +18,15 @@ Flow:
 4    Program saves any appended numbers to file.
 5    Program ends.
 '''
-#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 # Reuse Instructions
 # program1b(filename, entryMode)
 # Purpose: to open filename in mode <entryMode>
 #     and either read the file or write numbers
 #     to the file.
-# filename must be a file, not a path 
+# filename must be a file, not a path
 # entryMode can only be "Read" or "Write"
-#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
+# --#--#--#--#--#--#--#--#--#--#--#--#--#--#--#--#
 
 
 # imported methods
@@ -48,13 +48,13 @@ def main():
     print "Welcome!"
     print "This program will either read from"
     print "or write to a file a series of n real numbers.\n"
-    
+
     # prompt for entry of file name
     path = raw_input("Please enter the file name using the format C:\\folder\\folder\\filename.ext")
-    
+
     # prompt for entry of mode: read or write
     mode = raw_input("Please enter the mode: Read or Write")
-    
+
     if check_filename(path) and check_entryMode(mode):
         set_filename(path)
         set_entryMode(mode)
@@ -63,7 +63,7 @@ def main():
     else:
         areEntriesCorrect = False
         print "Please re-run the program and fix your entries."
-    
+
 def body():
     if entryMode == 0:
         read_from_file()
@@ -71,7 +71,7 @@ def body():
         write_to_file()
     else:
         "Entry mode error in body."
-        
+
 def read_from_file():
     file_to_read = open(filename, 'r+')
     file_to_read.read()
@@ -79,20 +79,20 @@ def read_from_file():
 
 def write_to_file():
     file_to_write = open(filename, 'w+')
-    
+
     # prompt for quantity of numbers
     numberQuantity = raw_input("Please enter n, the quantity of digits to be entered. (INTEGERS ONLY)")
     n = 0
-    
+
     while (n == 0):
         if is_valid_integer(numberQuantity):
             n = int(numberQuantity)
         else:
             numberQuantity = raw_input("Please enter a valid integer:")
-    
+
     numbers = []
     validNumber = False
-    for i in range(0,n):
+    for i in range(0, n):
         num = raw_input("Please enter a number:")
         while not validNumber:
             if is_valid_number(num):
@@ -101,10 +101,10 @@ def write_to_file():
             else:
                 num = raw_input("Please enter a valid number:")
                 validNumber = False
-    
+
     file_to_write.writelines(numbers)
     file_to_write.close()
-    
+
 def is_valid_number(num):
     pattern = re.compile(r'[-0-9]')
     return pattern.match(num)

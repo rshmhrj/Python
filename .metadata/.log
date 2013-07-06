@@ -4759,3 +4759,888 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+!SESSION 2013-06-25 12:06:39.809 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-06-25 12:06:43.857
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.context.ui.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2013-06-25 12:06:43.893
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.doc.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2013-06-25 12:06:43.893
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.ui 4 4 2013-06-25 12:06:43.894
+!MESSAGE Unable to find Action Set: org.eclipse.wb.core.ui.actionset
+
+!ENTRY org.python.pydev.shared_core 1 1 2013-06-25 12:06:44.132
+!MESSAGE Restoring info for: C:\Program Files (x86)\Python\Python27\python.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Program Files (x86)\Python\Python27\python.exe
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:494)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:327)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfos(AbstractInterpreterManager.java:314)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.<init>(AbstractInterpreterManager.java:168)
+	at org.python.pydev.ui.interpreters.PythonInterpreterManager.<init>(PythonInterpreterManager.java:28)
+	at org.python.pydev.plugin.PydevPlugin.start(PydevPlugin.java:188)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.registry.ViewDescriptor.createView(ViewDescriptor.java:62)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:112)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPart(CompatibilityPart.java:262)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:861)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:841)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:113)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:321)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:242)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:102)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:53)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:141)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:520)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:74)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1115)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:98)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:98)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:77)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:644)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:987)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: java.lang.RuntimeException: Could not load modules manager from C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.python.pydev\v1_54ii2bjrh0lwayg9cf3v8s53n\modulesKeys (version changed).
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:274)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:360)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:492)
+	... 130 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2013-06-25 12:06:44.331
+!MESSAGE Finished restoring information for: C:\Program Files (x86)\Python\Python27\python.exe at: C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.python.pydev\v1_54ii2bjrh0lwayg9cf3v8s53n
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Program Files (x86)\Python\Python27\python.exe at: C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.python.pydev\v1_54ii2bjrh0lwayg9cf3v8s53n
+	at org.python.pydev.core.log.Log.logInfo(Log.java:62)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:539)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:327)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfos(AbstractInterpreterManager.java:314)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.<init>(AbstractInterpreterManager.java:168)
+	at org.python.pydev.ui.interpreters.PythonInterpreterManager.<init>(PythonInterpreterManager.java:28)
+	at org.python.pydev.plugin.PydevPlugin.start(PydevPlugin.java:188)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.registry.ViewDescriptor.createView(ViewDescriptor.java:62)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:112)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPart(CompatibilityPart.java:262)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:861)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:841)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:113)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:321)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:242)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:102)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:53)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:141)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:520)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:74)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1115)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:98)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:98)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:77)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:59)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:644)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:641)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:987)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-06-25 12:06:46.306
+!MESSAGE The interpreter location found does not exist. <xml>
+<name>Python27</name>
+<version>2.7</version>
+<executable>C:\Program Files (x86)\Python\Python27\python.exe</executable>
+<lib>C:\Program Files (x86)\Python\Python27\lib\site-packages\argparse-1.2.1-py2.7.egg</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\site-packages\beautifulsoup-3.2.1-py2.7.egg</lib>
+<lib>C:\Program Files (x86)\Python\Python27</lib>
+<lib>C:\Program Files (x86)\Python\Python27\DLLs</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\plat-win</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\lib-tk</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>__builtin__</forced_lib>
+<forced_lib>__main__</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+</xml>
+!STACK 0
+java.lang.RuntimeException: The interpreter location found does not exist. <xml>
+<name>Python27</name>
+<version>2.7</version>
+<executable>C:\Program Files (x86)\Python\Python27\python.exe</executable>
+<lib>C:\Program Files (x86)\Python\Python27\lib\site-packages\argparse-1.2.1-py2.7.egg</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\site-packages\beautifulsoup-3.2.1-py2.7.egg</lib>
+<lib>C:\Program Files (x86)\Python\Python27</lib>
+<lib>C:\Program Files (x86)\Python\Python27\DLLs</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\plat-win</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\lib-tk</lib>
+<lib>C:\Program Files (x86)\Python\Python27\lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>__builtin__</forced_lib>
+<forced_lib>__main__</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+</xml>
+	at org.python.pydev.editor.codecompletion.shell.PythonShell.createServerProcess(PythonShell.java:46)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:440)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:320)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:253)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:150)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:125)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:298)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:1)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getBuiltinMod(AbstractInterpreterManager.java:127)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getBuiltinCompletions(AbstractInterpreterManager.java:103)
+	at org.python.pydev.plugin.nature.PythonNature.getBuiltinCompletions(PythonNature.java:1029)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getBuiltinComps(AbstractASTManager.java:954)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getBuiltinCompletions(AbstractASTManager.java:940)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.<init>(AbstractScopeAnalyzerVisitor.java:149)
+	at com.python.pydev.analysis.visitors.OccurrencesVisitor.<init>(OccurrencesVisitor.java:90)
+	at com.python.pydev.analysis.OccurrencesAnalyzer.analyzeDocument(OccurrencesAnalyzer.java:40)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:234)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.python.pydev.shared_core 1 1 2013-06-25 12:14:44.351
+!MESSAGE Information about process of adding new interpreter:
+- Chosen interpreter (name and file):'Tuple [python -- C:\Program Files\Python\Python27\python.exe]
+- Ok, file is non-null. Getting info on:C:\Program Files\Python\Python27\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  "C:\Program Files\Python\Python27\python.exe" -u C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... "C:\Program Files\Python\Python27\python.exe" -u C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc\interpreterInfo.py
+- Setting task name:Making exec... "C:\Program Files\Python\Python27\python.exe" -u C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>2.7</version>
+<executable>C:\Program Files\Python\Python27\python.exe</executable>
+<lib>C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc</lib>
+<lib>C:\WINDOWS\system32\python27.zip</lib>
+<lib>C:\Program Files\Python\Python27\DLLs</lib>
+<lib>C:\Program Files\Python\Python27\lib</lib>
+<lib>C:\Program Files\Python\Python27\lib\plat-win</lib>
+<lib>C:\Program Files\Python\Python27\lib\lib-tk</lib>
+<lib>C:\Program Files\Python\Python27</lib>
+<lib>C:\Program Files\Python\Python27\lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>__builtin__</forced_lib>
+<forced_lib>__main__</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+</xml>
+
+!STACK 0
+java.lang.RuntimeException: Information about process of adding new interpreter:
+- Chosen interpreter (name and file):'Tuple [python -- C:\Program Files\Python\Python27\python.exe]
+- Ok, file is non-null. Getting info on:C:\Program Files\Python\Python27\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  "C:\Program Files\Python\Python27\python.exe" -u C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... "C:\Program Files\Python\Python27\python.exe" -u C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc\interpreterInfo.py
+- Setting task name:Making exec... "C:\Program Files\Python\Python27\python.exe" -u C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>2.7</version>
+<executable>C:\Program Files\Python\Python27\python.exe</executable>
+<lib>C:\eclipse\plugins\org.python.pydev_2.7.5.2013052819\pysrc</lib>
+<lib>C:\WINDOWS\system32\python27.zip</lib>
+<lib>C:\Program Files\Python\Python27\DLLs</lib>
+<lib>C:\Program Files\Python\Python27\lib</lib>
+<lib>C:\Program Files\Python\Python27\lib\plat-win</lib>
+<lib>C:\Program Files\Python\Python27\lib\lib-tk</lib>
+<lib>C:\Program Files\Python\Python27</lib>
+<lib>C:\Program Files\Python\Python27\lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>__builtin__</forced_lib>
+<forced_lib>__main__</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+</xml>
+
+	at org.python.pydev.core.log.Log.logInfo(Log.java:62)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterEditor.getNewInputObject(AbstractInterpreterEditor.java:1073)
+	at org.python.copiedfromeclipsesrc.PythonListEditor.autoConfigPressed(PythonListEditor.java:124)
+	at org.python.copiedfromeclipsesrc.PythonListEditor$1.widgetSelected(PythonListEditor.java:226)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:215)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.python.pydev.shared_core 1 1 2013-06-25 12:15:16.832
+!MESSAGE Restoring info for: C:\Program Files\Python\Python27\python.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Program Files\Python\Python27\python.exe
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:494)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:327)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:617)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$3.run(AbstractInterpreterPreferencesPage.java:253)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.IOException: Expecting: C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.python.pydev\v1_5hafszje9nbmjtd6a686fauvw\modulesKeys to exist (and be a file).
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:266)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:360)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:492)
+	... 4 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2013-06-25 12:15:17.189
+!MESSAGE Finished restoring information for: C:\Program Files\Python\Python27\python.exe at: C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.python.pydev\v1_5hafszje9nbmjtd6a686fauvw
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Program Files\Python\Python27\python.exe at: C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\org.python.pydev\v1_5hafszje9nbmjtd6a686fauvw
+	at org.python.pydev.core.log.Log.logInfo(Log.java:62)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:539)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:327)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:617)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$3.run(AbstractInterpreterPreferencesPage.java:253)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-06-25 12:15:17.491
+!MESSAGE Info: Rebuilding internal caches: C:\Users\rmaharaj015\Downloads\EclipseWorkspaces\Python\.metadata\.plugins\com.python.pydev.analysis\python_v1_5hafszje9nbmjtd6a686fauvw\python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2013-06-25 12:15:30.005
+!MESSAGE Interpreter: Python27 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: Python27 not found
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:444)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:1)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1197)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:485)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:469)
+	at org.python.pydev.core.docutils.StringSubstitution.<init>(StringSubstitution.java:36)
+	at org.python.pydev.plugin.nature.PythonPathNature.trimAndReplaceVariablesIfNeeded(PythonPathNature.java:439)
+	at org.python.pydev.plugin.nature.PythonPathNature.getProjectSourcePath(PythonPathNature.java:429)
+	at org.python.pydev.plugin.nature.PythonPathNature.getProjectSourcePathSet(PythonPathNature.java:375)
+	at org.python.pydev.navigator.PythonBaseModelProvider.getChildrenForIResourceOrWorkingSet(PythonBaseModelProvider.java:661)
+	at org.python.pydev.navigator.PythonBaseModelProvider.getChildren(PythonBaseModelProvider.java:557)
+	at org.python.pydev.navigator.PythonModelProvider.getChildren(PythonModelProvider.java:64)
+	at org.python.pydev.navigator.PythonBaseModelProvider.hasChildren(PythonBaseModelProvider.java:532)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.hasChildren(SafeDelegateTreeContentProvider.java:110)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.callNormalHasChildren(NavigatorContentServiceContentProvider.java:430)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.pipelineHasChildren(NavigatorContentServiceContentProvider.java:449)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.access$5(NavigatorContentServiceContentProvider.java:433)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$3.run(NavigatorContentServiceContentProvider.java:401)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.hasChildren(NavigatorContentServiceContentProvider.java:381)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.hasChildren(NavigatorContentServiceContentProvider.java:422)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2138)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:588)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2176)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:2858)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:852)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1888)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1855)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:561)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1535)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1443)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1533)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:548)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:350)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:510)
+	at org.python.pydev.navigator.PythonBaseModelProvider$4.run(PythonBaseModelProvider.java:1270)
+	at org.python.pydev.navigator.PythonBaseModelProvider.runUpdates(PythonBaseModelProvider.java:1043)
+	at org.python.pydev.navigator.PythonBaseModelProvider.access$0(PythonBaseModelProvider.java:1019)
+	at org.python.pydev.navigator.PythonBaseModelProvider$2.run(PythonBaseModelProvider.java:1007)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:215)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.jface 2 0 2013-06-25 12:15:56.987
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-06-25 12:15:56.987
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6e77433e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@57dfd41a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@27de2408,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)
