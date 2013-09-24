@@ -3,6 +3,7 @@
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_wgv_grvkEeKsrOKbWxufxw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_w4HWorvkEeKsrOKbWxufxw" x="0" y="0" width="683" height="738">
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_w4HWorvkEeKsrOKbWxufxw" selectedElement="_w4H9sLvkEeKsrOKbWxufxw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_w4H9sLvkEeKsrOKbWxufxw" containerData="7500" selectedElement="_yyAQcLvkEeKsrOKbWxufxw">
         <children xsi:type="advanced:Perspective" xmi:id="_xEKOkLvkEeKsrOKbWxufxw" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_xEKOkbvkEeKsrOKbWxufxw" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/jperspective.gif">
@@ -164,9 +165,9 @@
               <tags>newtablook</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_yyAQc7vkEeKsrOKbWxufxw" elementId="org.python.pydev.navigator.view" ref="_yxt8kLvkEeKsrOKbWxufxw"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_yyA3gLvkEeKsrOKbWxufxw" containerData="7188" selectedElement="_yyA3grvkEeKsrOKbWxufxw">
-              <children xsi:type="advanced:Placeholder" xmi:id="_yyA3gbvkEeKsrOKbWxufxw" elementId="org.eclipse.ui.editorss" containerData="5260" ref="_xDh8cLvkEeKsrOKbWxufxw"/>
-              <children xsi:type="basic:PartStack" xmi:id="_yyA3grvkEeKsrOKbWxufxw" elementId="bottom" containerData="4740" selectedElement="_yyBekLvkEeKsrOKbWxufxw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_yyA3gLvkEeKsrOKbWxufxw" containerData="7188" selectedElement="_yyA3gbvkEeKsrOKbWxufxw">
+              <children xsi:type="advanced:Placeholder" xmi:id="_yyA3gbvkEeKsrOKbWxufxw" elementId="org.eclipse.ui.editorss" containerData="7276" ref="_xDh8cLvkEeKsrOKbWxufxw"/>
+              <children xsi:type="basic:PartStack" xmi:id="_yyA3grvkEeKsrOKbWxufxw" elementId="bottom" containerData="2724" selectedElement="_yyBekLvkEeKsrOKbWxufxw">
                 <tags>newtablook</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_yyA3g7vkEeKsrOKbWxufxw" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_xD-oYbvkEeKsrOKbWxufxw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_yyBekLvkEeKsrOKbWxufxw" elementId="org.eclipse.ui.console.ConsoleView" ref="_xD-oYrvkEeKsrOKbWxufxw"/>
@@ -276,7 +277,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_xDh8cLvkEeKsrOKbWxufxw" elementId="org.eclipse.ui.editorss" selectedElement="_xDh8cbvkEeKsrOKbWxufxw">
-      <children xsi:type="basic:PartStack" xmi:id="_xDh8cbvkEeKsrOKbWxufxw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_Fp-IUNY5EeKgDoY0R-x_ww">
+      <children xsi:type="basic:PartStack" xmi:id="_xDh8cbvkEeKsrOKbWxufxw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_ut1qINZAEeKt6LGO2Nzoiw">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
@@ -287,17 +288,17 @@
         </children>
         <children xsi:type="advanced:Placeholder" xmi:id="_gAswQNCuEeKDudTlevDClA" elementId="Drag Placerholder" toBeRendered="false"/>
         <children xsi:type="basic:Part" xmi:id="_Fp-IUNY5EeKgDoY0R-x_ww" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="maths" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" tooltip="Commons/src/lib/maths.py" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Commons/src/lib/maths.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1255&quot; selectionTopPixel=&quot;495&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Commons/src/lib/maths.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1255&quot; selectionTopPixel=&quot;105&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_O4OyMNY6EeKgDoY0R-x_ww" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="checks" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" tooltip="Commons/src/lib/checks.py" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Commons/src/lib/checks.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;753&quot; selectionTopPixel=&quot;667&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Commons/src/lib/checks.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;753&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_ut1qINZAEeKt6LGO2Nzoiw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="prompts" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" tooltip="Commons/src/lib/prompts.py" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Commons/src/lib/prompts.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2916&quot; selectionTopPixel=&quot;1447&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Commons/src/lib/prompts.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2916&quot; selectionTopPixel=&quot;1590&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
@@ -308,6 +309,11 @@
         </children>
         <children xsi:type="basic:Part" xmi:id="_NPsAQNuOEeKZOodQS9cUfQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="program7b" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" tooltip="PSP/src/program7b.py" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PSP/src/program7b.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;286&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_iqpDUCU3EeOcXLMUG7kOmw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="program1b" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" tooltip="PSP/src/program1b.py" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PSP/src/program1b.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;386&quot; selectionTopPixel=&quot;1892&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
@@ -417,7 +423,7 @@
       <tags>categoryTag:WindowBuilder</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_yxt8kLvkEeKsrOKbWxufxw" elementId="org.python.pydev.navigator.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PyDev Package Explorer" iconURI="platform:/plugin/org.python.pydev/icons/pydev_package_explorer.gif" tooltip="Workspace" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons/src&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons/src/lib&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons/src/lib/maths.py&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Coursera&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Coursera/src&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Coursera/src/maths&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP/src&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Udacity&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Udacity/src&quot;/>&#xD;&#xA;&lt;selected IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP/src/program6b.py&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons/src&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons/src/lib&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Commons/src/lib/maths.py&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Coursera&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Coursera/src&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Coursera/src/maths&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP/src&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP/src/program6b.py&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Udacity&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/Udacity/src&quot;/>&#xD;&#xA;&lt;selected IMemento.internal.id=&quot;D:/EclipseWorkspaces/Python/PSP/src/program6b.py&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:PyDev</tags>
       <menus xmi:id="_y0j1MLvkEeKsrOKbWxufxw" elementId="org.python.pydev.navigator.view">
