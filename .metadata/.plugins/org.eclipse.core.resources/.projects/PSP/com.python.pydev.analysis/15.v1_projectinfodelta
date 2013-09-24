@@ -1,1 +1,16 @@
-DELSTRprogram7b
+INSTUPprogram5b_modified
+D:\EclipseWorkspaces\Python\PSP\src\program5b_modified.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&2|5|2|0&&2|6|2|0&&2|7|2|0&&2|8|2|0&&2|9|2|0&&2|10|2|0&&2|11|2|0&&2|12|2|0&&2|13|2|0
+modify_file=9
+body=6
+get_entryMode=12
+set_entryMode=13
+get_filename=10
+program5b_modified=2
+main=5
+entryMode=3
+maxArraySize=4
+set_filename=11
+read_from_file=7
+filename=1
+write_to_file=8
